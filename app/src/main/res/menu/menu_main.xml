@@ -4,25 +4,25 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/file"
-        android:title="Information">
+        android:title="หน้าแรก">
         <menu>
             <item
                 android:id="@+id/mnuNew"
-                android:icon="@mipmap/logo"
-                android:title="Profile" />
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="ข้อมูล" />
             <item
                 android:id="@+id/mnuOpen"
-                android:icon="@mipmap/ucl"
-                android:title="UEFA Champions League" />
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="การตั้งค่า" />
         </menu>
     </item>
 
     <item
         android:id="@+id/mnuAbout"
-        android:icon="@mipmap/contact"
+        android:icon="@drawable/g"
         app:showAsAction="ifRoom|withText"
-        android:title="Contact" />
+        android:title="เกี่ยวกับ" />
     <item
         android:id="@+id/mnuHelp"
-        android:title="Help" />
+        android:title="ช่วยเหลือ" />
     </menu>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     tools:context="codingwithmitch.com.recyclerview.MainActivity"
-    android:background="@color/baige">
+   >
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/blueLi">
+        android:background="#ffcccc">
     </ListView>
 
 </android.support.v4.widget.DrawerLayout>
